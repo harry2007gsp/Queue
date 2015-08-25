@@ -1,14 +1,15 @@
-package com.harry;
+package com.harry.noElems;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
+import com.harry.Queue;
+import com.harry.R;
 
-public class MainActivity extends Activity {
+
+public class NoItemsQueueApp extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
